@@ -2,12 +2,10 @@
   "type": "origins:fire_projectile",
   "entity_type": "minecraft:fireball",
   "cooldown": 100,
-  "hud_render": {
-    "bar_index": 4,
-    "condition": {
-      "type": "origins:power_active",
-      "power": "origins:phantomize"
-    }
+  "speed": 0.15,
+  "key": {
+    "key": "key.attack",
+    "continuous": true
   },
   "name": "Bola de Fuego",
   "description": "Disparas una bola de fuego"

@@ -1,0 +1,17 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "irons_spellbooks:instant_mana",
+      "duration": 1,
+      "amplifier": 1
+    }
+  },"cooldown": 100,
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "name": "Sangre de mana",
+  "description": "regenera un 50 + 10% del mana maximo instantaneamente"
+}

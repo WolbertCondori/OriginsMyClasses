@@ -2,7 +2,8 @@
   "powers": [
     "mage:spell_power",
     "mage:mana_regen",
-    "mage:fire_ball"
+    "mage:fire_ball",
+    "mage:mana_blood"
   ],
   "icon": "minecraft:fire_charge",
   "order": 10,

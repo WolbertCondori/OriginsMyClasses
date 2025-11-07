@@ -6,6 +6,6 @@
     "value": -0.5,
     "operation": "addition"
   },
-  "name": "sangre de mana",
+  "name": "enfermedad de mana",
   "description": "menor regeneracion de mana"
 }
