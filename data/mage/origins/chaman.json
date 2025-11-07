@@ -1,5 +1,6 @@
 {
   "powers": [
+    "mage:nature_power"
   ],
   "icon": "minecraft:torchflower",
   "order": 12,
