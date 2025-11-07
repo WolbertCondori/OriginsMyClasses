@@ -1,0 +1,17 @@
+{
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "name": "menos daño",
+    "attribute": "minecraft:generic.attack_damage",
+    "value": -0.5,
+    "operation": "multiply_total"
+  },
+  "tick_rate": 20,
+  "condition": {
+    "type": "origins:brightness",
+    "comparison": ">=",
+    "compare_to": 0.5
+  },
+  "name": "manto de sombras",
+  "description": "daño aumentado si el nivel de luz es menor al 0.5."
+}

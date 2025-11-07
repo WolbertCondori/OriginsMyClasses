@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Daño total aumentado en 25%",
+    "attribute": "minecraft:generic.attack_damage",
+    "value": 0.25,
+    "operation": "multiply_total"
+  },
+  "name": "Filo Mortal",
+  "description": "Aumenta tu daño en 25%"
+}

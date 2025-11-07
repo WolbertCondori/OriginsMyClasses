@@ -3,6 +3,7 @@
   "origins": [
     "mage:mage",
     "mage:comerciante",
-    "mage:chaman"
+    "mage:chaman",
+    "mage:assasin"
   ]
 }

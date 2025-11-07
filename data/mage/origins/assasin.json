@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "mage:filo_mortal",
+    "mage:manto_sombra"
+  ],
+  "icon": "minecraft:iron_sword",
+  "order": 13,
+  "impact": 1,
+  "name": "Asesino",
+  "description": "Daño explosivo y velocidad aumentada"
+}
