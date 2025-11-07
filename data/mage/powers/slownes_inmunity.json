@@ -1,0 +1,6 @@
+{
+  "type": "origins:effect_immunity",
+  "effect": "minecraft:slowness",
+  "name": "Mercancia Pesada",
+  "description": "Inmunidad a la ralentizacion."
+}

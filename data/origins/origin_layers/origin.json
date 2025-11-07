@@ -1,6 +1,7 @@
 {
   "replace": false,
   "origins": [
-    "mage:mage"
+    "mage:mage",
+    "mage:comerciante"
   ]
 }

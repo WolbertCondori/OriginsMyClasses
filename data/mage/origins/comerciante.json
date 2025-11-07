@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "mage:slownes_inmunity"
+  ],
+  "icon": "minecraft:gold_nugget",
+  "order": 11,
+  "impact": 1,
+  "name": "Comerciante",
+  "description": "Viajero Experimentado en negocios y dificultades"
+}
