@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "menos regen mana",
+    "attribute": "irons_spellbooks:mana_regen",
+    "value": -0.5,
+    "operation": "addition"
+  },
+  "name": "sangre de mana",
+  "description": "menor regeneracion de mana"
+}

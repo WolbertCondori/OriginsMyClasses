@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "mage:spell_power",
+    "mage:mana_regen",
+    "mage:fire_ball"
+  ],
+  "icon": "minecraft:fire_charge",
+  "order": 10,
+  "impact": 1,
+  "name": "Mago",
+  "description": "Poder Magico aumentado"
+}
