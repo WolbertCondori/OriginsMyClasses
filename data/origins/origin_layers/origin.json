@@ -1,5 +1,5 @@
 {
-  "replace": false,
+  "replace": true,
   "origins": [
     "mage:mage",
     "mage:comerciante"
