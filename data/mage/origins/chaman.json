@@ -1,0 +1,9 @@
+{
+  "powers": [
+  ],
+  "icon": "minecraft:torchflower",
+  "order": 12,
+  "impact": 1,
+  "name": "Chaman",
+  "description": "Poder en las Magias Naturales (Electrica,Natural,Aqua)"
+}

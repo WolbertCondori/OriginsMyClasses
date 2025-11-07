@@ -1,0 +1,16 @@
+{
+  "type": "origins:attribute",
+  "modifiers": [{
+    "name": "Poder Natural +25%",
+    "attribute": "irons_spellbooks:nature_spell_power",
+    "value": 0.25,
+    "operation": "multiply_total"
+  },{
+    "name": "Poder Electrico +25%",
+    "attribute": "irons_spellbooks:lightning_spell_power",
+    "value": 0.25,
+    "operation": "multiply_total"
+  }],
+  "name": "Poder Magico",
+  "description": "aumenta el poder Natural y Electrico en 25%"
+}
