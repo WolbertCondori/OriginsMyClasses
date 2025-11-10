@@ -1,0 +1,20 @@
+{
+  "type": "origins:conditioned_attribute",
+  "name": "Voluntad",
+  "description": "aumenta el daño un 3% por cada 25% de vida faltante.",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "multiply_total",
+      "value": 0.03,
+      "name": "Furia (5%)"
+    }
+  ],
+  "condition": {
+    "type": "origins:relative_health",
+    "comparison": "<=",
+    "compare_to": 0.75
+  },
+  "tick_rate": 5,
+  "hidden": false
+}

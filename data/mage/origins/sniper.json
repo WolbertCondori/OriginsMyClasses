@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "mage:bala_hueca",
+    "mage:equipo_pesado",
+    "mage:gafas_vision",
+    "mage:sniper_invisibilidad"
+  ],
+  "icon": "minecraft:spyglass",
+  "order": 10,
+  "impact": 3,
+  "name": "Francotirador",
+  "description": "Siente la direccion del viento y preparate para eliminar a tu objetivo."
+}

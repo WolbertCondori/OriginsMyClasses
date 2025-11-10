@@ -1,0 +1,27 @@
+{
+  "type": "origins:action_over_time",
+  "bientity_condition": {
+    "type": "origins:actor_condition",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:power_active",
+          "power": "mage:ritual_invocacion",
+          "inverted": true
+        },{
+          "type": "origins:resource",
+          "resource": "mage:ritual_carga",
+          "comparison": ">",
+          "compare_to": 0
+        }
+      ]
+    }
+  },
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "mage:ritual_carga",
+    "operation": "add",
+    "change": -1
+  },"interval": 2
+}

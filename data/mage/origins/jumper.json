@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "mage:ender_power",
+    "mage:distorcion"
+  ],
+  "icon": "minecraft:ender_pearl",
+  "order": 10,
+  "impact": 2,
+  "name": "Jumper",
+  "description": "Un viajero de otro mundo con la capacidad de doblar el espacio para cortar distancia entre el y su objetivo."
+}

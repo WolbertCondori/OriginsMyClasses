@@ -1,0 +1,15 @@
+{
+  "type": "origins:active_self",
+  "name": "Ritual de Invocación",
+  "description": "Realiza un ritual místico. Si lo completas, invocas un aliado.",
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": true
+  },
+  "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "mage:ritual_carga",
+        "operation": "add",
+        "change": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "origins:apply_effect",
+  "effect": {
+    "effect": "irons_spellbooks:true_invisibility",
+    "amplifier": 0
+  },"name": "Vision Nocturna",
+  "description": "Equipo militar para ver en la oscuridad."
+}

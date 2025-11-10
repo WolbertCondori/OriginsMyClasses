@@ -1,0 +1,25 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "mage:ritual_carga",
+    "operation": "add",
+    "change": -1
+  },
+  "interval": 1,
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:moving"
+      },
+      {
+        "type": "origins:resource",
+        "resource": "mage:ritual_carga",
+        "comparison": ">",
+        "compare_to": 0
+      }
+    ]
+  },
+  "hidden": false
+}

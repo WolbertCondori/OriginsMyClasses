@@ -1,0 +1,15 @@
+{ "type": "origins:active_self",
+  "name": "Ritual audio",
+  "description": "Realiza un ritual místico. Si lo completas, invocas un aliado.",
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": true
+  },
+  "entity_action": {
+    "type": "origins:play_sound",
+    "sound": "alexscaves:dark_cloud_appear",
+    "volume": 0.5,
+    "pitch": 0.5
+  },
+  "cooldown": 40
+}

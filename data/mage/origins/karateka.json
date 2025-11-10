@@ -1,0 +1,13 @@
+{
+  "powers": [
+  "mage:modos",
+    "mage:cambiar_modo",
+    "mage:modo_ataque",
+    "mage:modo_defensa"
+  ],
+  "icon": "minecraft:fire_charge",
+  "order": 10,
+  "impact": 1,
+  "name": "Karateka",
+  "description": "Dominio de estilos diferentes y daño aumentado en combos"
+}

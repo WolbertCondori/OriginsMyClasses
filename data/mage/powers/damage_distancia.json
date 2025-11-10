@@ -1,0 +1,15 @@
+{
+  "type": "origins:modify_projectile_damage",
+  "modifier": {
+    "name": "Daño a larga distancia",
+    "operation": "multiply_total",
+    "value": 2.5
+  },
+  "bientity_condition": {
+    "type": "origins:distance",
+    "comparison": ">=",
+    "compare_to": 40
+  },
+  "name": "Ojode de Aguila",
+  "description": "Hace 250% más daño a enemigos que estén a más de 40 bloques de distancia."
+}

@@ -2,8 +2,15 @@
   "powers": [
     "mage:spell_power",
     "mage:mana_regen",
-    "mage:fire_ball",
-    "mage:mana_blood"
+    "mage:mi_habilidad",
+    "mage:ritual_carga",
+    "mage:ritual_invocacion",
+    "mage:ritual_completo",
+    "mage:ritual_reinicio",
+    "mage:ritual_audio",
+    "mage:ritual_aura",
+    "mage:ritual_menos_carga",
+    "mage:tecla"
   ],
   "icon": "minecraft:fire_charge",
   "order": 10,

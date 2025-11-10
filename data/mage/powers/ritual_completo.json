@@ -1,0 +1,15 @@
+{
+  "type": "origins:action_over_time",
+  "rising_action": {
+    "type": "origins:spawn_entity",
+    "entity_type": "traveloptics:summoned_forsaken"
+  },
+  "interval": 1,
+  "condition": {
+    "type": "origins:resource",
+    "resource": "mage:ritual_carga",
+    "comparison": ">=",
+    "compare_to": 800
+  },
+  "hidden": false
+}

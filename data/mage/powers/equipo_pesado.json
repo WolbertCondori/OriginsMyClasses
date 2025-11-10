@@ -1,0 +1,19 @@
+{
+  "type": "origins:attribute",
+  "modifiers": [
+    {
+      "name": "velocidad -25%",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.25,
+      "operation": "multiply_total"
+    },
+    {
+      "name": "velocidad de ataque -25%",
+      "attribute": "minecraft:generic.attack_speed",
+      "value": -0.25,
+      "operation": "multiply_total"
+    }
+  ],
+  "name": "Equipo Pesado",
+  "description": "Disminuye tu velocidad de movimiento y ataque un 25%"
+}

@@ -1,0 +1,27 @@
+{
+  "type": "origins:action_over_time",
+  "name": "Aura de Recarga",
+  "description": "El aire crepita mientras tu habilidad se recarga.",
+  "interval": 5,
+  "condition": {
+    "type": "origins:resource",
+    "resource": "mage:ritual_carga",
+    "comparison": "==",
+    "compare_to": 800
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:change_resource",
+        "resource": "mage:ritual_carga",
+        "operation": "set",
+        "change": 0
+      },
+      {
+        "type": "origins:execute_command",
+        "command":"kill @s"
+      }
+    ]
+  }
+}

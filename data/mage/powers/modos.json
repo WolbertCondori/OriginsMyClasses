@@ -1,0 +1,10 @@
+{
+  "type": "origins:resource",
+  "name": "Modo de Combate",
+  "min": 0,
+  "max": 1,
+  "start_value": 0,
+  "hud_render": {
+    "bar_index": 4
+  }
+}

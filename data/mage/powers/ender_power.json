@@ -1,0 +1,16 @@
+{
+  "type": "origins:attribute",
+  "modifiers":[{
+    "name": "Poder ender",
+    "attribute": "irons_spellbooks:ender_spell_power",
+    "value": 0.25,
+    "operation": "multiply_total"
+  },{
+    "name": "Menos enfriamiento",
+    "attribute": "irons_spellbooks:cooldown_reduction",
+    "value": 0.25,
+    "operation": "multiply_total"
+  }],
+  "name": "Poder Magico",
+  "description": "aumenta el poder magico en 25%"
+}

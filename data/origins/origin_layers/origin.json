@@ -1,9 +1,14 @@
 {
-  "replace": true,
+  "replace": false,
   "origins": [
     "mage:mage",
     "mage:comerciante",
     "mage:chaman",
-    "mage:assasin"
+    "mage:assasin",
+	"mage:arquero",
+    "mage:sniper",
+    "mage:jumper",
+    "mage:escudero",
+    "mage:karateka"
   ]
 }

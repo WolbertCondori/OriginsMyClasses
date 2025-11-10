@@ -1,0 +1,23 @@
+{
+  "type": "origins:action_on_hit",
+  "cooldown": 600,
+  "damage_condition": {
+    "type": "origins:projectile"
+  },
+  "bientity_action": {
+    "type": "origins:actor_action",
+    "action": {
+      "type": "origins:apply_effect",
+      "target": "attacker",
+      "effect": {
+        "effect": "irons_spellbooks:true_invisibility",
+        "duration": 100,
+        "amplifier": 0,
+        "show_particles": false,
+        "show_icon": false
+      }
+    }
+  },
+  "name": "Camuflaje",
+  "description": "Al impactar a una entidad con un proyectil se vuelver invisible por 5 segundos."
+}

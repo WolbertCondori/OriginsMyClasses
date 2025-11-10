@@ -1,0 +1,20 @@
+{
+  "type": "origins:self_action_on_kill",
+  "target_condition": {
+    "type": "origins:entity_type",
+    "entity_type": "celestisynth:traverser"
+  },
+  "condition": {
+    "type": "origins:resource",
+    "resource": "mage:progreso_escudero",
+    "comparison": "==",
+    "compare_to": 0
+  },
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "mage:progreso_escudero",
+    "change": 1
+  },
+  "name": "Caballero de los Cielo",
+  "description": "Te conviertes en Caballero de los Cielos al derrotar al Caballero del Infierno."
+}

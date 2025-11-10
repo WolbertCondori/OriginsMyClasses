@@ -1,0 +1,21 @@
+{
+  "type": "origins:conditioned_attribute",
+  "condition": {
+    "type": "origins:resource",
+    "resource": "mage:modos",
+    "comparison": "==",
+    "compare_to": 1
+  },
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 3,
+      "operation": "addition"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -2,
+      "operation": "addition"
+    }
+  ]
+}

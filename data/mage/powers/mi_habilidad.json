@@ -1,0 +1,13 @@
+{
+  "name": "Golpe Arcano",
+  "description": "Una habilidad poderosa con cooldown.",
+  "type": "origins:active_self",
+  "key": { "key": "key.origins.primary_active" },
+  "cooldown": 100,
+  "entity_action": {
+    "type": "origins:resource",
+    "resource": "mage:cooldown_resource",
+    "operation": "set",
+    "value": 100
+  }
+}

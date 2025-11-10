@@ -1,0 +1,13 @@
+{
+  "type": "origins:self_glow",
+  "use_teams": false,
+  "red": 0.0,
+  "green": 0.75,
+  "blue": 1.0,
+  "condition": {
+    "type": "origins:relative_health",
+    "comparison": "<=",
+    "compare_to": 0.25
+  },
+  "hidden": true
+}

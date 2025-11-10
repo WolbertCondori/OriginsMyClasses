@@ -1,0 +1,15 @@
+{
+  "powers": [
+    "mage:progreso_escudero",
+    "mage:acenso",
+    "mage:voluntad",
+    "mage:voluntad2",
+    "mage:voluntad3",
+    "mage:aura"
+  ],
+  "icon": "minecraft:shield",
+  "order": 10,
+  "impact": 2,
+  "name": "Escudero",
+  "description": "Un Escudero que busca convertirse en caballero."
+}

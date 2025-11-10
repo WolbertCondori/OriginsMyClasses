@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "mage:velocidad",
+    "mage:damage_distancia"
+  ],
+  "icon": "minecraft:bow",
+  "order": 10,
+  "impact": 2,
+  "name": "Arquero Sombrío",
+  "description": "Un maestro del arco que se beneficia de la distancia."
+}

@@ -1,0 +1,16 @@
+{
+  "type": "origins:attribute",
+  "modifiers": [{
+    "name": "more damage for bulllet",
+    "attribute": "gunsmithlib:bullet_damage",
+    "value": 1.5,
+    "operation": "multiply_total"
+  },{
+    "name": "menos velodad de disparo",
+    "attribute": "gunsmithlib:rpm",
+    "value": -0.75,
+    "operation": "multiply_total"
+  }],
+  "name": "Bala Hueca",
+  "description": "150% de daño aumentado a las balas pero reduce tu velocidad de disparo un 75%"
+}
