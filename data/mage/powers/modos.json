@@ -1,6 +1,6 @@
 {
   "type": "origins:resource",
-  "name": "Modo de Combate",
+  "name": "Modo de Combate/Defensa",
   "min": 0,
   "max": 1,
   "start_value": 0,

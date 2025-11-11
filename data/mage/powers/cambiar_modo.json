@@ -5,34 +5,24 @@
   "key": "key.origins.primary_active",
   "cooldown": 5,
   "entity_action": {
-    "type": "origins:choice",
-    "actions": [
-      {
-        "condition": {
-          "type": "origins:resource",
-          "resource": "mage:modos",
-          "comparison": "==",
-          "compare_to": 0
-        },
-        "action": {
-          "type": "origins:change_resource",
-          "resource": "mage:modos",
-          "change": 1
-        }
-      },
-      {
-        "condition": {
-          "type": "origins:resource",
-          "resource": "mage:modos",
-          "comparison": "==",
-          "compare_to": 1
-        },
-        "action": {
-          "type": "origins:change_resource",
-          "resource": "mage:modos",
-          "change": -1
-        }
-      }
-    ]
+    "type": "origins:if_else",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "mage:modos",
+      "comparison": "==",
+      "compare_to": 1
+    },
+    "if_action": {
+      "type": "origins:change_resource",
+      "resource": "mage:modos",
+      "operation": "set",
+      "change": 0
+    },
+    "else_action": {
+      "type": "origins:change_resource",
+      "resource": "mage:modos",
+      "operation": "add",
+      "change": 1
+    }
   }
 }

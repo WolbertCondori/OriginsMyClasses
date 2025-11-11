@@ -1,0 +1,11 @@
+{
+  "type": "origins:resource",
+  "min": 0,
+  "max": 3,
+  "start_value": 0,
+  "max_action": {
+      "type": "origins:execute_command",
+      "command": "tellraw @s {\"text\": \"Golpe Cargado!\", \"color\": \"red\"}"
+  },
+  "hidden": false
+}

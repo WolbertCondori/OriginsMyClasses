@@ -3,7 +3,11 @@
   "mage:modos",
     "mage:cambiar_modo",
     "mage:modo_ataque",
-    "mage:modo_defensa"
+    "mage:modo_defensa",
+    "mage:modo_ataque_habilidad",
+    "mage:golpes_contador",
+    "mage:reiniciar_golpes",
+    "mage:combo_golpes"
   ],
   "icon": "minecraft:fire_charge",
   "order": 10,

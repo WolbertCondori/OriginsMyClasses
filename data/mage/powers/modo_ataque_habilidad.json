@@ -1,0 +1,17 @@
+{
+  "type": "origins:self_action_on_hit",
+  "entity_action": {
+    "type": "origins:modify_resource",
+    "modifier": {
+      "operation": "add_base_early",
+      "value": 1
+    },
+    "resource": "mage:golpes_contador"
+  },
+  "condition": {
+    "type": "origins:resource",
+    "resource": "mage:golpes_contador",
+    "comparison": "<",
+    "compare_to": 3
+  }
+}

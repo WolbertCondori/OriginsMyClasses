@@ -1,0 +1,19 @@
+{
+  "type": "origins:multiple",
+  "conditioned_attribute": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "multiply_total",
+      "value": 0.05,
+      "name": "Increased sprinting speed"
+    },
+    "tick_rate": 1,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "mage:golpes_contador",
+      "comparison": "==",
+      "compare_to": 1
+    }
+  }
+}
